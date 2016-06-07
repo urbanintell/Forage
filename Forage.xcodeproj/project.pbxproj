@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C329E81D075D5F005555F4 /* DetailRecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C329E71D075D5F005555F4 /* DetailRecipeTableViewController.swift */; };
 		B26F85161D015376009E632F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F85151D015376009E632F /* AppDelegate.swift */; };
 		B26F85181D015376009E632F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F85171D015376009E632F /* ViewController.swift */; };
 		B26F851B1D015376009E632F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26F85191D015376009E632F /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18C329E71D075D5F005555F4 /* DetailRecipeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailRecipeTableViewController.swift; sourceTree = "<group>"; };
 		B26F85121D015376009E632F /* Forage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26F85151D015376009E632F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B26F85171D015376009E632F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				B27F590E1D039E5300CF75EA /* SearchRecipeViewController.swift */,
 				B27F59101D039EFB00CF75EA /* RecipeItem.swift */,
 				B27F59121D03A57200CF75EA /* RecipeCell.swift */,
+				18C329E71D075D5F005555F4 /* DetailRecipeTableViewController.swift */,
 			);
 			path = Forage;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				B27F590D1D039A6300CF75EA /* RecipeViewController.swift in Sources */,
 				B27F590F1D039E5300CF75EA /* SearchRecipeViewController.swift in Sources */,
+				18C329E81D075D5F005555F4 /* DetailRecipeTableViewController.swift in Sources */,
 				B27F59111D039EFB00CF75EA /* RecipeItem.swift in Sources */,
 				B27F59131D03A57200CF75EA /* RecipeCell.swift in Sources */,
 				B26F85181D015376009E632F /* ViewController.swift in Sources */,
