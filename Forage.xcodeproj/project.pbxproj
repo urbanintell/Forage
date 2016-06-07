@@ -12,6 +12,11 @@
 		B26F851B1D015376009E632F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26F85191D015376009E632F /* Main.storyboard */; };
 		B26F851D1D015376009E632F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F851C1D015376009E632F /* Assets.xcassets */; };
 		B26F85201D015376009E632F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26F851E1D015376009E632F /* LaunchScreen.storyboard */; };
+		B26F85281D0154E2009E632F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F85271D0154E2009E632F /* MenuViewController.swift */; };
+		B27F590D1D039A6300CF75EA /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27F590C1D039A6300CF75EA /* RecipeViewController.swift */; };
+		B27F590F1D039E5300CF75EA /* SearchRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27F590E1D039E5300CF75EA /* SearchRecipeViewController.swift */; };
+		B27F59111D039EFB00CF75EA /* RecipeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27F59101D039EFB00CF75EA /* RecipeItem.swift */; };
+		B27F59131D03A57200CF75EA /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27F59121D03A57200CF75EA /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		B26F851C1D015376009E632F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B26F851F1D015376009E632F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B26F85211D015376009E632F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26F85271D0154E2009E632F /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B27F590C1D039A6300CF75EA /* RecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		B27F590E1D039E5300CF75EA /* SearchRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRecipeViewController.swift; sourceTree = "<group>"; };
+		B27F59101D039EFB00CF75EA /* RecipeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeItem.swift; sourceTree = "<group>"; };
+		B27F59121D03A57200CF75EA /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				B26F851C1D015376009E632F /* Assets.xcassets */,
 				B26F851E1D015376009E632F /* LaunchScreen.storyboard */,
 				B26F85211D015376009E632F /* Info.plist */,
+				B26F85271D0154E2009E632F /* MenuViewController.swift */,
+				B27F590C1D039A6300CF75EA /* RecipeViewController.swift */,
+				B27F590E1D039E5300CF75EA /* SearchRecipeViewController.swift */,
+				B27F59101D039EFB00CF75EA /* RecipeItem.swift */,
+				B27F59121D03A57200CF75EA /* RecipeCell.swift */,
 			);
 			path = Forage;
 			sourceTree = "<group>";
@@ -136,7 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B27F590D1D039A6300CF75EA /* RecipeViewController.swift in Sources */,
+				B27F590F1D039E5300CF75EA /* SearchRecipeViewController.swift in Sources */,
+				B27F59111D039EFB00CF75EA /* RecipeItem.swift in Sources */,
+				B27F59131D03A57200CF75EA /* RecipeCell.swift in Sources */,
 				B26F85181D015376009E632F /* ViewController.swift in Sources */,
+				B26F85281D0154E2009E632F /* MenuViewController.swift in Sources */,
 				B26F85161D015376009E632F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +307,7 @@
 				B26F85261D015376009E632F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
