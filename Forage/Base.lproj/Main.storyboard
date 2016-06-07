@@ -207,7 +207,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="1059" y="116"/>
+            <point key="canvasLocation" x="931" y="116"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Grm-fo-dRc">
@@ -397,7 +397,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eXK-Lw-1b3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2457" y="125"/>
+            <point key="canvasLocation" x="2001" y="125"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Zlh-eO-BBT">
@@ -414,7 +414,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aj8-FU-eHa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1637" y="125"/>
+            <point key="canvasLocation" x="1497" y="125"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yEi-BY-T4w">
