@@ -1,3 +1,3 @@
 # Forage
 
-![alt tag](UserNavigation)
+![alt tag](UserNavigation.png)
