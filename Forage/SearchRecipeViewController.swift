@@ -8,13 +8,18 @@
 
 import UIKit
 
-class SearchRecipeViewController: UITableViewController {
+class SearchRecipeViewController: UITableViewController,UISearchBarDelegate {
 
+    @IBOutlet weak var mySearchBar: UISearchBar!
     let recipeData = [
         RecipeItem(recipeName:"Chicken", numberOfIngredients: 5, time: "2 Hours",numCalories: "1200"),
         RecipeItem(recipeName:"Chicken", numberOfIngredients: 5, time: "2 Hours",numCalories: "1200"),
         RecipeItem(recipeName:"Chicken", numberOfIngredients: 5, time: "2 Hours",numCalories: "1200")
     ]
+    
+    override func viewDidLoad() {
+        mySearchBar.delegate = self
+    }
     
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -41,5 +46,11 @@ class SearchRecipeViewController: UITableViewController {
     
     }
     
-    
+    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+        let text = searchBar.text
+  
+        if text != "" {
+            print(text!)
+        }
+    }
 }
